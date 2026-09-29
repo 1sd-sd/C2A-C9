@@ -19,7 +19,7 @@
 | C9 Benchmark 代码（`*benchmark*`） | `lishengdan_C9_benchmark/` | ✅ 零依赖可运行，含 README、22 项单元自测（全通过）、mock 运行结果 |
 | C9 任务说明 | `lishengdan_C9_task说明.md` | ✅ 任务描述 + 全部指标评分标准 + 防作弊协议 |
 | C9 测试结果 | `lishengdan_C9_测试结果.md` | ✅ 4 mock 画像 ×150 题实测数据 + 区分度分析（含诚实声明） |
-| C9 反思报告（`*AAR*`） | `lishengdan_C9_反思报告.md` | ✅ 约 800 字，含失败经验与反向举证 |
+| C9 反思报告（`*AAR*`） | `lishengdan_C9_反思报告_AAR.md` | ✅ 676 字（合规 500–800），含失败经验与反向举证；文件名含 `AAR`，精确匹配交付物清单通配符 `*AAR*` |
 | C9 AI 日志（`*AI日志*`） | `lishengdan_C9_AI日志.md` | ✅ 6 轮记录，含"AI 改代码迎合错误测试被人工拦截"案例 |
 | C9 拿来说明 | `lishengdan_C9_拿来说明.md` | ✅ 实现期借鉴 + 提案→实现差异如实记录 |
 

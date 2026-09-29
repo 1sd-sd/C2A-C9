@@ -28,7 +28,7 @@ C2AC9提交成果/
 │
 ├── lishengdan_C9_task说明.md        ← C9 任务描述 + 指标评分标准 + 防作弊协议
 ├── lishengdan_C9_测试结果.md        ← 4 个 mock 画像 + 3 个真实前沿模型实测数据
-├── lishengdan_C9_反思报告.md        ← AAR 反思（含失败经验与反向举证）
+├── lishengdan_C9_反思报告_AAR.md    ← AAR 反思（含失败经验与反向举证）
 ├── lishengdan_C9_AI日志.md          ← C9 阶段 AI 使用记录（6 轮）
 ├── lishengdan_C9_拿来说明.md        ← C9 实现期借鉴说明
 │
