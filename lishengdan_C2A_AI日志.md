@@ -12,7 +12,7 @@
 ## Round 0｜论文精读（Step 1）
 
 - **Prompt：** 「下载 DeepMind《Measuring Progress Toward AGI: A Cognitive Framework》原文 PDF 到 D 盘，提取：① 元认知的正式定义；② 元认知的子维度拆分；③ 评估协议的原则；④ 与校准/错误监控相关的所有论述原文。」
-- **AI 产出：** 成功下载 32 页 PDF（1.15 MB）至 `D:\C2A_C9_downloads\`；用 pypdf 抽取全文，定位元认知定义原文与 7.7 节子维度表（metacognitive knowledge / monitoring [含 confidence calibration、judgments of learning、error monitoring] / control），并确认"评估缺口最大"的五能力表述。
+- **AI 产出：** 成功下载 32 页 PDF（1.15 MB）至 `D:\C2A_C9_downloads\`（该临时下载目录已在成果整合阶段清理，PDF 现存于本包 `参考资料/deepmind-AGI认知框架（全文）.pdf`）；用 pypdf 抽取全文，定位元认知定义原文与 7.7 节子维度表（metacognitive knowledge / monitoring [含 confidence calibration、judgments of learning、error monitoring] / control），并确认"评估缺口最大"的五能力表述。
 - **人工核验：** 抽查了定义段的原文引用与 PDF 页码一致；核对了子维度表确含 Confidence calibration 一项及其引用（Fleming & Lau 2014; Harvey 1997; Yeung & Summerfield 2012）。
 - **结论：** ✅ 论文依据成立，元认知三分法可引用。
 

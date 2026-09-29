@@ -4,7 +4,25 @@ import json
 import sys
 import os
 
-sys.path.insert(0, "D:/.cogseed/userWorkSpace/我的挑战有哪些/C2A_C9_提交成果_衡量AGI的认知能力/lishengdan_C9_benchmark")
+# 定位 metaknow 包：优先取环境变量，否则按本文件相对位置自动探测。
+# 这样无论从 评测工具/ 还是 lishengdan_C9_benchmark/results/real_models/ 运行都能找到。
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_CANDIDATES = [
+    os.environ.get("METAKNOW_PATH"),
+    os.path.join(_HERE, os.pardir, "lishengdan_C9_benchmark"),          # 评测工具/
+    os.path.join(_HERE, os.pardir, os.pardir),                          # results/real_models/
+    os.path.join(_HERE, os.pardir, os.pardir, "lishengdan_C9_benchmark"),
+]
+for _p in _CANDIDATES:
+    if _p and os.path.isdir(os.path.join(_p, "metaknow")):
+        sys.path.insert(0, os.path.abspath(_p))
+        break
+else:
+    sys.exit(
+        "找不到 metaknow 包。请设置环境变量 METAKNOW_PATH 指向 lishengdan_C9_benchmark 目录，"
+        "或确认该目录与本文件的相对位置未变。"
+    )
+
 from metaknow.metrics import (  # noqa: E402
     auroc, brier_score, error_monitoring, expected_calibration_error,
     overconfidence_index, auc_of_risk_coverage, risk_coverage_curve,

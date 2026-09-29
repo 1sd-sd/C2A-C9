@@ -56,6 +56,13 @@ python compute_metrics.py answers_glm-5.3-flash.json answers_deepseek-v4-flash.j
 
 输出即 `lishengdan_C9_测试结果.md` §5 表格中的全部数值。
 
+> 传入 **2 个以上**文件时，脚本会额外把汇总写入**当前工作目录**的 `real_model_reports.json`。
+> 本次实测的归档副本在 `../lishengdan_C9_benchmark/results/real_models/`；重跑可复现出一致的文件。
+>
+> 脚本通过相对位置自动定位 `metaknow` 包，因此从 `评测工具/` 或
+> `lishengdan_C9_benchmark/results/real_models/` 运行均可；位置特殊时可用环境变量
+> `METAKNOW_PATH` 指定 `lishengdan_C9_benchmark` 目录。
+
 ---
 
 ## 指标体系
