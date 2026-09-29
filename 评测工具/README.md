@@ -11,6 +11,7 @@
 | `compute_metrics.py` | 读取作答文件，计算元认知指标体系（ECE / Brier / AUROC / EDR / CRR 等） |
 | `questions_seed1001.json` | 本次实测所用试卷（seed=1001，50 题：20 可计算 + 10 事实 + 20 虚构实体） |
 | `package.json` | 运行 `run_real_model.js` 所需的 Node 依赖声明 |
+| `package-lock.json` | 锁定依赖的精确版本，保证 `npm ci` 能还原完全一致的环境 |
 
 > 逐题原始作答文件与最终报告已归档在
 > `../lishengdan_C9_benchmark/results/real_models/`，无需重跑即可查看本次数据。
@@ -23,8 +24,12 @@
 
 ```bash
 cd 评测工具
-npm install @tencent-ai/workbuddy-cloud-sdk@dev --no-fund --no-audit
+npm ci          # 按 package-lock.json 还原精确版本（推荐）
+# 或：npm install @tencent-ai/workbuddy-cloud-sdk@dev --no-fund --no-audit
 ```
+
+> `node_modules/` 未随包提供（5 MB 依赖缓存，可由上面任一命令一键还原，且已列入 `.gitignore`）。
+> 需要离线直接运行时，执行一次 `npm ci` 即可。
 
 ### 2. 配置环境变量并运行
 

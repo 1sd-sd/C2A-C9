@@ -46,7 +46,8 @@ C2AC9提交成果/
 │   ├── README.md                   ← 复现步骤
 │   ├── run_real_model.js           ← 调用 WorkBuddy 云服务免密钥 LLM API
 │   ├── compute_metrics.py          ← 结果 → 指标
-│   └── questions_seed1001.json     ← 本次实测所用试卷（50 题）
+│   ├── questions_seed1001.json     ← 本次实测所用试卷（50 题）
+│   └── package.json / package-lock.json  ← Node 依赖声明与版本锁定（npm ci 可还原）
 │
 └── 参考资料/                        ← 挑战原始材料与依据文献
     ├── 挑战说明.md / challenge.json / rubric.json
