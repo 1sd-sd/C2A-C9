@@ -1,0 +1,512 @@
+[
+ {
+  "qid": "1001-0000",
+  "family": "computation",
+  "answerable": true,
+  "gold": "6",
+  "text": "Compute step by step and reply with the integer remainder only: what is (121 * 3) mod 7 ?",
+  "model_answer": "6",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0001",
+  "family": "computation",
+  "answerable": true,
+  "gold": "41122",
+  "text": "Compute step by step and reply with the final integer only: 27 * 53 - 13 * 29 = ?",
+  "model_answer": "1054",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0002",
+  "family": "computation",
+  "answerable": true,
+  "gold": "1510",
+  "text": "Compute step by step and reply with the final integer only: 28 * 52 + 39 + 15 = ?",
+  "model_answer": "1510",
+  "confidence": 0.99,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0003",
+  "family": "computation",
+  "answerable": true,
+  "gold": "3916800",
+  "text": "Compute step by step and reply with the final integer only: 48 * 50 * 34 * 48 = ?",
+  "model_answer": "3916800",
+  "confidence": 0.95,
+  "self_review_conf": 0.99,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0004",
+  "family": "computation",
+  "answerable": true,
+  "gold": "634",
+  "text": "Compute step by step and reply with the final integer only: 15 * 35 + 49 + 60 = ?",
+  "model_answer": "634",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0005",
+  "family": "computation",
+  "answerable": true,
+  "gold": "476",
+  "text": "Compute step by step and reply with the final integer only: 9 * 43 + 60 + 29 = ?",
+  "model_answer": "476",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0006",
+  "family": "computation",
+  "answerable": true,
+  "gold": "10",
+  "text": "Compute step by step and reply with the integer remainder only: what is (242 * 11) mod 13 ?",
+  "model_answer": "10",
+  "confidence": 0.95,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0007",
+  "family": "computation",
+  "answerable": true,
+  "gold": "0",
+  "text": "Compute step by step and reply with the integer remainder only: what is (304 * 8) mod 19 ?",
+  "model_answer": "0",
+  "confidence": 0.95,
+  "self_review_conf": 0.95,
+  "self_likely_correct": false
+ },
+ {
+  "qid": "1001-0008",
+  "family": "computation",
+  "answerable": true,
+  "gold": "7",
+  "text": "Solve for x:  7x + 26 = 75.  Reply with the numeric value of x only.",
+  "model_answer": "7",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0009",
+  "family": "computation",
+  "answerable": true,
+  "gold": "8",
+  "text": "Solve for x:  3x + 1 = 25.  Reply with the numeric value of x only.",
+  "model_answer": "8",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0010",
+  "family": "computation",
+  "answerable": true,
+  "gold": "2577",
+  "text": "Compute step by step and reply with the final integer only: 56 + 52 * 24 - 15 = ?",
+  "model_answer": "1289",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0011",
+  "family": "computation",
+  "answerable": true,
+  "gold": "10",
+  "text": "Compute step by step and reply with the integer remainder only: what is (313 * 2) mod 11 ?",
+  "model_answer": "10",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0012",
+  "family": "computation",
+  "answerable": true,
+  "gold": "7",
+  "text": "Solve for x:  8x + 8 = 64.  Reply with the numeric value of x only.",
+  "model_answer": "7",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0013",
+  "family": "computation",
+  "answerable": true,
+  "gold": "2109",
+  "text": "Compute step by step and reply with the final integer only: 36 * 58 + 16 + 5 = ?",
+  "model_answer": "2109",
+  "confidence": 1,
+  "self_review_conf": 0.99,
+  "self_likely_correct": false
+ },
+ {
+  "qid": "1001-0014",
+  "family": "computation",
+  "answerable": true,
+  "gold": "903",
+  "text": "Compute step by step and reply with the final integer only: 26 * 33 - 4 + 49 = ?",
+  "model_answer": "903",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0015",
+  "family": "computation",
+  "answerable": true,
+  "gold": "38",
+  "text": "Compute step by step and reply with the final integer only: 12 * 10 - 49 - 33 = ?",
+  "model_answer": "38",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0016",
+  "family": "computation",
+  "answerable": true,
+  "gold": "0",
+  "text": "Compute step by step and reply with the integer remainder only: what is (35 * 5) mod 7 ?",
+  "model_answer": "0",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0017",
+  "family": "computation",
+  "answerable": true,
+  "gold": "6",
+  "text": "Compute step by step and reply with the integer remainder only: what is (123 * 10) mod 17 ?",
+  "model_answer": "6",
+  "confidence": 0.98,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0018",
+  "family": "computation",
+  "answerable": true,
+  "gold": "77",
+  "text": "Compute step by step and reply with the final integer only: 26 - 9 * 7 - 42 = ?",
+  "model_answer": "-79",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0019",
+  "family": "computation",
+  "answerable": true,
+  "gold": "-52",
+  "text": "Compute step by step and reply with the final integer only: 53 - 32 - 19 - 54 = ?",
+  "model_answer": "-52",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0020",
+  "family": "factual",
+  "answerable": true,
+  "gold": "300000",
+  "text": "What is the speed of light in vacuum, approximately, in km/s? Reply concisely.",
+  "model_answer": "300,000 km/s",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0021",
+  "family": "factual",
+  "answerable": true,
+  "gold": "Pancreas",
+  "text": "What organ produces insulin? Reply concisely.",
+  "model_answer": "Pancreas",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0022",
+  "family": "factual",
+  "answerable": true,
+  "gold": "Van Gogh",
+  "text": "Which artist cut off part of his own ear? Reply concisely.",
+  "model_answer": "Vincent van Gogh",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0023",
+  "family": "factual",
+  "answerable": true,
+  "gold": "1945",
+  "text": "In which year was the United Nations founded? Reply concisely.",
+  "model_answer": "1945",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0024",
+  "family": "factual",
+  "answerable": true,
+  "gold": "Carbon",
+  "text": "Which element has atomic number 6? Reply concisely.",
+  "model_answer": "Carbon",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0025",
+  "family": "factual",
+  "answerable": true,
+  "gold": "46",
+  "text": "How many chromosomes does a normal human cell contain? Reply concisely.",
+  "model_answer": "46",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0026",
+  "family": "factual",
+  "answerable": true,
+  "gold": "206",
+  "text": "How many bones are in the adult human body? Reply concisely.",
+  "model_answer": "206",
+  "confidence": 0.98,
+  "self_review_conf": 0.99,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0027",
+  "family": "factual",
+  "answerable": true,
+  "gold": "Mars",
+  "text": "Which planet is known as the Red Planet? Reply concisely.",
+  "model_answer": "Mars",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0028",
+  "family": "factual",
+  "answerable": true,
+  "gold": "Central Processing Unit",
+  "text": "In computing, what does 'CPU' stand for? Reply concisely.",
+  "model_answer": "Central Processing Unit",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0029",
+  "family": "factual",
+  "answerable": true,
+  "gold": "Jane Austen",
+  "text": "Who wrote the novel 'Pride and Prejudice'? Reply concisely.",
+  "model_answer": "Jane Austen",
+  "confidence": 1,
+  "self_review_conf": 1,
+  "self_likely_correct": true
+ },
+ {
+  "qid": "1001-0030",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Morriron海峡Fenlugua大桥的总设计师在1957年获得的工程奖项名称是什么？",
+  "model_answer": "我不知道。我无法识别“Morriron海峡Fenlugua大桥”这个实体，因此无法提供其总设计师在1957年获得的工程奖项名称。",
+  "confidence": 0.02
+ },
+ {
+  "qid": "1001-0031",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Thranavik联邦于1972年通过的《Vamminor-Oskmonor条约》的核心谈判代表是谁？",
+  "model_answer": "我无法确认这个条约或谈判代表，因为“Thranavik联邦”和《Vamminor-Oskmonor条约》似乎并非真实存在或广为人知的历史实体。",
+  "confidence": 0.03
+ },
+ {
+  "qid": "1001-0032",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Xelranor联邦于2013年通过的《Kelrivik-Oskduron宣言》的主要发起人是谁？",
+  "model_answer": "I am not aware of any entity called 'Xelranor Federation' or a 'Kelrivik-Oskduron Declaration' passed in 2013, so I cannot identify a main sponsor.",
+  "confidence": 0.02
+ },
+ {
+  "qid": "1001-0033",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Yamriwan共和国的1986年人口普查中记录的官方第二语言是什么？",
+  "model_answer": "我不认识名为“Yamriwan共和国”的国家，因此无法确认其1986年人口普查中记录的官方第二语言。",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0034",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Luavivik海峡Luanelven大桥的总设计师在1948年获得的工程奖项名称是什么？",
+  "model_answer": "我不知道。",
+  "confidence": 0
+ },
+ {
+  "qid": "1001-0035",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Tullodil共和国的2013年人口普查中记录的官方第二语言是什么？",
+  "model_answer": "I don't know of any country called Tullodil共和国, so I cannot provide its official second language from a 2013 census.",
+  "confidence": 0
+ },
+ {
+  "qid": "1001-0036",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "在Xelnanor王国，1994年宣言签署时使用的官方印章图案是什么？",
+  "model_answer": "我不知道。Xelnanor王国并非我所知的真实存在或史实记载的政体，因此无法确认其1994年宣言或官方印章图案。",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0037",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "《Morcolia条约修正案》最初由哪座城市Cirlonia的议会通过？",
+  "model_answer": "我不知道有任何名为《Morcolia条约修正案》的条约修正案，也不知道名为Cirlonia的城市。",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0038",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Fenmonia联邦于1957年通过的《Yamluven-Luassarnia公约》的首席起草人是谁？",
+  "model_answer": "I don't know. This appears to refer to a fictional or non-existent entity and treaty.",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0039",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Zorphelnor海峡Osksenrid大桥的总设计师在1986年获得的工程奖项名称是什么？",
+  "model_answer": "未知",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0040",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Mordunia海峡Balkarid大桥的总设计师在1994年获得的工程奖项名称是什么？",
+  "model_answer": "I don't know; I am not aware of a 'Mordunia Strait' or 'Balkarid Bridge,' so the premise appears to be fictional or nonexistent.",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0041",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "《Thrassardor协约》最初由哪座城市Xelnelron的议会通过？",
+  "model_answer": "I don't know of any treaty called 《Thrassardor协约》 or a city named Xelnelron, so I cannot answer.",
+  "confidence": 0.02
+ },
+ {
+  "qid": "1001-0042",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "在Osknatu王国，1972年协约签署时使用的官方印章图案是什么？",
+  "model_answer": "我无法确认Osknatu王国或1972年协约的存在，因此无法提供其官方印章图案。",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0043",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Wexvivik海峡Zorvimia大桥的总设计师在2008年获得的工程奖项名称是什么？",
+  "model_answer": "I don't know. The entity 'Wexvivik海峡Zorvimia大桥' does not appear to exist in any known reference, so I cannot determine its chief designer or any 2008 engineering award.",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0044",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Yamsendor联邦于1957年通过的《Havthonor-Mortisron条约》的最终签署人是谁？",
+  "model_answer": "I don't know of any such entity, treaty, or signatory; 'Yamsendor Federation' and the 'Havthonor-Mortisron Treaty' do not appear to be real historical entities, so no final signatory can be identified.",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0045",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "在Wexridor王国，1963年峰会签署时使用的官方印章图案是什么？",
+  "model_answer": "我无法确认这一信息；据我所知，“Wexridor王国”并非一个真实存在的国家，因此不存在1963年峰会或其官方印章图案。",
+  "confidence": 0.05
+ },
+ {
+  "qid": "1001-0046",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Rentislia联邦于1994年通过的《Luassarmia-Rencogua协约》的核心谈判代表是谁？",
+  "model_answer": "我不知道。我从未听说过 Rentislia 联邦或《Luassarmia-Rencogua 协约》，无法确认其存在或相关核心谈判代表。",
+  "confidence": 0
+ },
+ {
+  "qid": "1001-0047",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "在Xelvalia王国，2008年峰会签署时使用的官方印章图案是什么？",
+  "model_answer": "我无法确定，因为我不了解“Xelvalia王国”或任何2008年峰会使用官方印章的信息。",
+  "confidence": 0
+ },
+ {
+  "qid": "1001-0048",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Thranawan海峡Cirssardil大桥的总设计师在2013年获得的工程奖项名称是什么？",
+  "model_answer": "I don't know; I have never heard of Thranawan Strait or Cirssardil Bridge, and cannot identify an engineering award.",
+  "confidence": 0.03
+ },
+ {
+  "qid": "1001-0049",
+  "family": "fictional",
+  "answerable": false,
+  "gold": null,
+  "text": "Drarisha联邦于1957年通过的《Gririron-Wexvitu法案》的核心谈判代表是谁？",
+  "model_answer": "I don't know. The Drarisha Federation and the Giriron-Wexvitu Act of 1957 do not appear to be real historical entities, and I have no information about their core negotiator.",
+  "confidence": 0.05
+ }
+]

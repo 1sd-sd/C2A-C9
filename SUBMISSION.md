@@ -27,10 +27,11 @@
 
 **MetaKnow**：用"可证明不存在的实体"把"知道自己不知道什么"变成可自动评分的指标（AUROC），三子测试（置信度校准 / 认知边界 / 错误监控）对应 KSTAR ΔE 的三个环节。
 
-## 3. 已知缺口（如实披露）
+## 3. 已知缺口（如实披露，2026-09-29 更新）
 
-1. **未对真实前沿模型实测**：本环境无 API key。管线用 4 个 mock 画像验证端到端可运行且指标区分度符合预期方向；接入真实模型仅需配置 3 个环境变量（见 `lishengdan_C9_benchmark/README.md`）。
-2. **未完成 Kaggle 平台正式提交**：需要账号登录的网页操作。全部材料已按 Community Benchmarks 格式备齐。
+1. ~~未对真实前沿模型实测~~ → **已完成**：GLM-5.3-Flash / DeepSeek-V4-Flash / Kimi-K2.6 三个前沿模型 ×50 题实测（0 调用错误），核心发现：S2 边界感知 AUROC=1.0 但 S3 错误检出率=0.0（极端分离）。见 `lishengdan_C9_测试结果.md` §5 与 `lishengdan_C9_benchmark/results/real_models/`。
+2. **Kaggle 平台状态**：官方比赛"Measuring Progress Toward AGI - Cognitive Abilities"已于 2026-04-16 截止提交（2026-06-01 已公布结果），**正式参赛窗口已关闭**。MetaKnow 已按 Kaggle Benchmarks 平台（kaggle-benchmarks SDK）标准打包（见 `lishengdan_C9_benchmark/kaggle_benchmark/`），可随时以社区基准（Community Benchmark）形式发布，发布需要 Kaggle 账号登录授权。
+3. 真实模型样本量 50 题/模型、单 seed，置信区间较宽（详见测试结果 §5.5）。
 
 ## 4. 一句话说明（按挑战提交格式）
 

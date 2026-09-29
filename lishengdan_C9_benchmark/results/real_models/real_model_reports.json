@@ -1,0 +1,80 @@
+{
+ "glm-5.3-flash": {
+  "model": "glm-5.3-flash",
+  "n_items": 50,
+  "n_call_errors": 0,
+  "S1": {
+   "accuracy": 0.8667,
+   "mean_confidence": 0.999,
+   "ECE_10bin": 0.1323,
+   "Brier": 0.1333,
+   "overconfidence_index": 0.1323
+  },
+  "S2": {
+   "AUROC": 1.0,
+   "mean_conf_answerable": 0.9995,
+   "mean_conf_unanswerable": 0.0275,
+   "risk_coverage_AUC": 0.2916,
+   "fictional_answered_as_entity_rate": 1.0
+  },
+  "S3": {
+   "error_detection_rate": 0.0,
+   "correct_retention_rate": 1.0,
+   "self_review_AUROC": 0.5962,
+   "n_errors": 4,
+   "n_correct": 26
+  }
+ },
+ "deepseek-v4-flash": {
+  "model": "deepseek-v4-flash",
+  "n_items": 50,
+  "n_call_errors": 0,
+  "S1": {
+   "accuracy": 0.8667,
+   "mean_confidence": 0.9933,
+   "ECE_10bin": 0.1267,
+   "Brier": 0.1336,
+   "overconfidence_index": 0.1267
+  },
+  "S2": {
+   "AUROC": 1.0,
+   "mean_conf_answerable": 0.991,
+   "mean_conf_unanswerable": 0.0335,
+   "risk_coverage_AUC": 0.3075,
+   "fictional_answered_as_entity_rate": 1.0
+  },
+  "S3": {
+   "error_detection_rate": 0.0,
+   "correct_retention_rate": 1.0,
+   "self_review_AUROC": 0.4231,
+   "n_errors": 4,
+   "n_correct": 26
+  }
+ },
+ "kimi-k2.6": {
+  "model": "kimi-k2.6",
+  "n_items": 50,
+  "n_call_errors": 0,
+  "S1": {
+   "accuracy": 0.6667,
+   "mean_confidence": 0.984,
+   "ECE_10bin": 0.3173,
+   "Brier": 0.314,
+   "overconfidence_index": 0.3173
+  },
+  "S2": {
+   "AUROC": 1.0,
+   "mean_conf_answerable": 0.9795,
+   "mean_conf_unanswerable": 0.05,
+   "risk_coverage_AUC": 0.4664,
+   "fictional_answered_as_entity_rate": 1.0
+  },
+  "S3": {
+   "error_detection_rate": 0.0,
+   "correct_retention_rate": 1.0,
+   "self_review_AUROC": 0.7325,
+   "n_errors": 10,
+   "n_correct": 20
+  }
+ }
+}
