@@ -28,8 +28,9 @@ npm ci          # 按 package-lock.json 还原精确版本（推荐）
 # 或：npm install @tencent-ai/workbuddy-cloud-sdk@dev --no-fund --no-audit
 ```
 
-> `node_modules/` 未随包提供（5 MB 依赖缓存，可由上面任一命令一键还原，且已列入 `.gitignore`）。
-> 需要离线直接运行时，执行一次 `npm ci` 即可。
+> **本目录已随包附带 `node_modules/`（19 个文件 / 5.0 MB），开箱即可离线运行，无需安装。**
+> 但它属于可再生成的依赖缓存，**未纳入 git 版本管理**（见仓库根目录 `.gitignore`）：
+> 从 GitHub 克隆本仓库后，请先执行一次 `npm ci` 还原依赖。
 
 ### 2. 配置环境变量并运行
 

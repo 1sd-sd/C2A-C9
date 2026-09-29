@@ -47,7 +47,8 @@ C2AC9提交成果/
 │   ├── run_real_model.js           ← 调用 WorkBuddy 云服务免密钥 LLM API
 │   ├── compute_metrics.py          ← 结果 → 指标
 │   ├── questions_seed1001.json     ← 本次实测所用试卷（50 题）
-│   └── package.json / package-lock.json  ← Node 依赖声明与版本锁定（npm ci 可还原）
+│   ├── package.json / package-lock.json  ← Node 依赖声明与版本锁定（npm ci 可还原）
+│   └── node_modules/               ← 随包附带的依赖（5 MB，开箱可离线运行；不入 git）
 │
 └── 参考资料/                        ← 挑战原始材料与依据文献
     ├── 挑战说明.md / challenge.json / rubric.json
@@ -55,6 +56,8 @@ C2AC9提交成果/
     ├── deepmind-AGI认知框架（全文）.pdf / （摘要）.pdf
     └── c2a-starter.zip
 ```
+
+> 本目录是**自包含交付包**：全部文档、代码、实测原始数据、依据文献与可复现工具链均在内，不依赖任何外部目录。
 
 ---
 
